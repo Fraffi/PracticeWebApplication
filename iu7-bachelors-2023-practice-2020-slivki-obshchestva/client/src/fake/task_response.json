@@ -1,0 +1,48 @@
+{
+  "task": [{
+      "title": "Сделать интегралы",
+      "id": "1e344jd2jdaa232s24tds",
+      "rootId": "1e344jd2jdaa232s24tds",
+      "done": false,
+      "children": [
+        {
+          "task": {
+            "title": "Сделать типовик один",
+            "id": "1e344jd2jdaa2345323sdfvfc",
+            "rootId": "1e344jd2jdaa232s24tds",
+            "done": false,
+            "children": [
+              {
+                "task": {
+                  "title": "Первое задание типовика один",
+                  "id": "1e344jd2jdaa232s24tdsfgdwes",
+                  "rootId": "1e344jd2jdaa2345323sdfvfc",
+                  "done": true,
+                  "children": [
+                    {
+                      "task": {
+                        "title": "Ну и еще что-то",
+                        "id": "1e344jd2jdaa232s24tdsdddwxzsas12",
+                        "rootId": "1e344jd2jdaa232s24tdsfgdwes",
+                        "done": true,
+                        "children": []
+                      }
+                    },
+                    {
+                      "task": {
+                        "title": "Ну и еще одно задание первого типовика",
+                        "id": "1e344jd2jdaasas12",
+                        "rootId": "1e344jd2jdaa232s24tdsfgdwes",
+                        "done": true,
+                        "children": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+    ]
+  }]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "tasks-board-client",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "faker": "^4.1.0",
+    "prop-types": "^15.7.2",
+    "react-animations": "^1.0.0",
+    "react-app-rewired": "^2.1.6",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-spinners-css": "^1.1.8",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "lint": "eslint ./"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

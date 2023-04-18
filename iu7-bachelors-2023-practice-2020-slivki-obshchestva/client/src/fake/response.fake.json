@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Работа"
+    },
+    {
+      "id": 2,
+      "name": "Вуз"
+    },
+    {
+      "id": 3,
+      "name": "Семья"
+    },
+    {
+      "id": 4,
+      "name": "Личная жизнь"
+    },
+    {
+      "id": 5,
+      "name": "Проекты"
+    },
+    {
+      "id": 6,
+      "name": "Что-то еще"
+    },
+    {
+      "id": 8,
+      "name": "И последняя группа"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "groupId": 2,
+      "title": "Сделать интегралы",
+      "shared": false
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "title": "Сайт",
+      "shared": true
+    },
+    {
+      "id": 3,
+      "groupId": 5,
+      "title": "Идеи для проектов",
+      "shared": true
+    },
+    {
+      "id": 4,
+      "groupId": 4,
+      "title": "Подарки для женщин на восьмое марта",
+      "shared": false
+    },
+    {
+      "id": 5,
+      "groupId": 3,
+      "title": "Мама день рождения",
+      "shared": false
+    },
+    {
+      "id": 6,
+      "groupId": 8,
+      "title": "Добавим в последнюю группу",
+      "shared": true
+    },
+    {
+      "id": 7,
+      "groupId": 2,
+      "title": "Просто проверочка",
+      "shared": false
+    }
+  ]
+}

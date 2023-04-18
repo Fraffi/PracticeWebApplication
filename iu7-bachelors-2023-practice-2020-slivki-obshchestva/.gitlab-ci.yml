@@ -1,0 +1,28 @@
+stages:
+  - build
+  - lint-js
+  - unit-test
+
+Compile:
+  stage: build
+  tags:
+    - js
+  script:
+    - bash
+    - yarn
+
+Style check:
+  stage: lint-js
+  tags:
+    - js
+  script:
+    - yarn lint
+
+Testing:
+  stage: unit-test
+  tags:
+    - js
+  only:
+    - develop-frontend
+  script:
+    - npm test
